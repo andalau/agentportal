@@ -168,7 +168,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="charts.html"><i class="fa fa-fw fa-bar-chart-o"></i> Refund Requests</a>
+                        <a href="refund-requests.html"><i class="fa fa-fw fa-bar-chart-o"></i> Refund Requests</a>
                     </li>
                     <li>
                         <a href="tables.html"><i class="fa fa-fw fa-table"></i> Activity History</a>
@@ -201,15 +201,15 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            Process Refunds
-                            <!-- <small>Subheading</small> -->
+                            Pending Refund Requests
+                            <!--<small>Process Refunds</small>-->
                         </h1>
                         <ol class="breadcrumb">
                             <li>
                                 <i class="fa fa-dashboard"></i>  <a href="index.html">Dashboard</a>
                             </li>
                             <li class="active">
-                                <i class="fa fa-file"></i> <a href="refund-requests">Pending Refund Requests</a>
+                                <i class="fa fa-file"></i> Pending Refund Requests
                             </li>
                         </ol>
 
@@ -246,6 +246,11 @@
                                 </tr>
                             </tbody>
                         </table>
+
+                        <div id="refund buttons" align="right">
+                            <button>Undo Refund Requests</button>
+                            <button onclick="window.location.href='/process-refunds.html'">Process Refunds</button>
+                        </div>
 
                     </div>
                 </div>
